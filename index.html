@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umairah Syarafana — Software Engineering Student</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- NAV -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">US<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#resume" class="nav-link">Resume</a>
+      <a href="#contact" class="nav-link nav-cta">Contact</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal">Hello, I'm</p>
+    <h1 class="hero-name reveal">Umairah Syarafana<br>binti Mohd Zaini</h1>
+    <h2 class="hero-title reveal">
+      <span class="typed" id="typedText"></span><span class="cursor-blink">|</span>
+    </h2>
+    <p class="hero-desc reveal">Final year Software Engineering student passionate about designing and developing user-centered digital solutions — blending UI/UX design, web development, and mobile app development.</p>
+    <div class="hero-actions reveal">
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Let's Talk</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <p class="section-tag reveal">Summary</p>
+    <h2 class="section-title reveal">The person behind the pixels</h2>
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="avatar-card">
+          <img class="avatar-photo" src="assets/me1.jpg" alt="Umairah Syarafana binti Mohd Zaini">
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p>Hi, I'm Umairah Syarafana, a final year Software Engineering student, passionate about designing and developing user-centered digital solutions. I specialize in UI/UX design, web development, and mobile application development, combining creativity with technical expertise to build functional, intuitive, and impactful software.</p>
+        <p>My goal is to create digital experiences that are both visually appealing and technically robust.</p>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num" data-count="8">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="2">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Years of Software Development Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="5">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Technologies & Frameworks Mastered</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="container">
+    <p class="section-tag reveal">Technical Skills</p>
+    <h2 class="section-title reveal">What I bring to the table</h2>
+    <div class="skills-categories">
+      <div class="skill-category reveal">
+        <div class="skill-category-head">
+          <span class="skill-category-icon">🎨</span>
+          <h3>Design</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">UI/UX Design</span>
+          <span class="skill-pill">Wireframing & Prototyping</span>
+          <span class="skill-pill">Usability Testing</span>
+          <span class="skill-pill">Figma</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-category-head">
+          <span class="skill-category-icon">🌐</span>
+          <h3>Web Development</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">PHP</span>
+          <span class="skill-pill">ASP.NET</span>
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-category-head">
+          <span class="skill-category-icon">📱</span>
+          <h3>Mobile Development</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">Flutter</span>
+          <span class="skill-pill">Dart</span>
+          <span class="skill-pill">Firebase</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-category-head">
+          <span class="skill-category-icon">💻</span>
+          <h3>Programming</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">PHP</span>
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">Front-End Development</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS / CASE STUDIES -->
+<section class="projects" id="projects">
+  <div class="container">
+    <p class="section-tag reveal">Academic Projects</p>
+    <h2 class="section-title reveal">Projects & Case Studies</h2>
+    <p class="section-sub reveal">A few academic projects — use the arrows to browse, or click through to each case study for the full breakdown and screens.</p>
+
+    <h3 class="projects-subhead reveal">Development Projects</h3>
+    <div class="project-carousel reveal" data-carousel>
+      <div class="carousel-stage">
+        <button class="carousel-arrow carousel-prev" aria-label="Previous project">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+
+          <article class="project-card" data-tilt>
+            <div class="project-thumb"><img src="assets/customer%20login.jpg" alt="Washhouse customer app login screen"></div>
+            <div class="project-body">
+              <span class="project-tag">Web & Mobile App</span>
+              <h3>Washhouse — Laundry Pickup & Delivery Management System</h3>
+              <p>A web and mobile-based platform that streamlines laundry service operations, allowing customers to schedule pickups, track orders, and manage payments efficiently.</p>
+              <div class="project-stack">
+                <span>Flutter</span><span>PHP</span><span>MySQL</span><span>Firebase</span><span>Figma</span>
+              </div>
+              <div class="project-links">
+                <a href="projects/washhouse.html" class="project-link">View Case Study →</a>
+                <a href="https://your-washhouse-live-url.com" target="_blank" rel="noopener" class="project-link-live">Visit Live Site <span class="ext-icon">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-tilt>
+            <div class="project-thumb"><img src="assets/main%20page%20wajibpakai.jpeg" alt="WajibPakai homepage"></div>
+            <div class="project-body">
+              <span class="project-tag">E-Commerce Website</span>
+              <h3>WajibPakai — Modern E-Commerce Platform for Tudung Products</h3>
+              <p>An online shopping website for product browsing, cart management, and secure checkout, with efficient admin-side product management.</p>
+              <div class="project-stack">
+                <span>ASP.NET</span><span>SQL Server</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="projects/wajibpakai.html" class="project-link">View Case Study →</a>
+                <a href="https://your-wajibpakai-live-url.com" target="_blank" rel="noopener" class="project-link-live">Visit Live Site <span class="ext-icon">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-tilt>
+            <div class="project-thumb"><img src="assets/main%20page%20forest.png" alt="HutanHutan virtual forest overview page"></div>
+            <div class="project-body">
+              <span class="project-tag">Simulation System</span>
+              <h3>Virtual Forest Simulation — Large-Scale Forest Modeling System</h3>
+              <p>A simulation platform capable of generating and managing thousands of virtual trees with realistic attributes such as species, diameter, height, volume, and harvesting conditions for forestry studies.</p>
+              <div class="project-stack">
+                <span>PHP</span><span>MySQL</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="projects/virtual-forest.html" class="project-link">View Case Study →</a>
+                <a href="https://your-virtual-forest-live-url.com" target="_blank" rel="noopener" class="project-link-live">Visit Live Site <span class="ext-icon">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-tilt>
+            <div class="project-thumb thumb-placeholder grad-1">Event Hall Booking — Mobile App</div>
+            <div class="project-body">
+              <span class="project-tag">Mobile App</span>
+              <h3>Event Hall Booking — Mobile App</h3>
+              <p>A mobile app that lets users browse, compare, and book event halls and venues for weddings, corporate events, and celebrations, all from their phone.</p>
+              <div class="project-stack">
+                <span>Flutter</span><span>Dart</span><span>Firebase</span><span>Figma</span>
+              </div>
+              <div class="project-links">
+                <a href="projects/event-hall-mobile.html" class="project-link">View Case Study →</a>
+                <a href="https://your-event-hall-app-demo-url.com" target="_blank" rel="noopener" class="project-link-live">View Demo <span class="ext-icon">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-tilt>
+            <div class="project-thumb thumb-placeholder grad-2">Event Hall Booking — Website</div>
+            <div class="project-body">
+              <span class="project-tag">Web Platform</span>
+              <h3>Event Hall Booking — Website</h3>
+              <p>The companion web platform to the Event Hall Booking app, giving venue admins a dashboard to manage hall listings, bookings, and availability.</p>
+              <div class="project-stack">
+                <span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="projects/event-hall-website.html" class="project-link">View Case Study →</a>
+                <a href="https://your-event-hall-website-live-url.com" target="_blank" rel="noopener" class="project-link-live">Visit Live Site <span class="ext-icon">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        </div>
+        <button class="carousel-arrow carousel-next" aria-label="Next project">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div class="carousel-footer">
+        <span class="carousel-counter"><span data-counter-current>1</span> / <span data-counter-total>5</span></span>
+        <div class="carousel-dots" data-dots></div>
+      </div>
+    </div>
+
+    <h3 class="projects-subhead reveal">Design Concepts — Figma Only</h3>
+    <div class="project-carousel reveal" data-carousel>
+      <div class="carousel-stage">
+        <button class="carousel-arrow carousel-prev" aria-label="Previous project">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+
+          <article class="project-card" data-tilt>
+            <div class="project-thumb"><img src="assets/design%20sp%20overall.png" alt="Study Planner app design overview"></div>
+            <div class="project-body">
+              <span class="project-tag">Design Concept</span>
+              <h3>Study Planner — Mobile App Design Concept</h3>
+              <p>A UI/UX concept for a mobile app that helps students plan study schedules, track assignments, and stay on top of deadlines in one organized space.</p>
+              <div class="project-stack">
+                <span>Figma</span>
+              </div>
+              <div class="project-links">
+                <a href="projects/study-planner.html" class="project-link">View Case Study →</a>
+                <a href="https://your-study-planner-figma-url.com" target="_blank" rel="noopener" class="project-link-live">View Prototype <span class="ext-icon">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-tilt>
+            <div class="project-thumb"><img src="assets/homepage%20maybank.png" alt="Maybank website redesign homepage concept"></div>
+            <div class="project-body">
+              <span class="project-tag">Redesign Concept</span>
+              <h3>Maybank Website — UX Improvement Concept</h3>
+              <p>An independent redesign concept exploring usability improvements to a banking website's navigation, visual hierarchy, and mobile responsiveness.</p>
+              <div class="project-stack">
+                <span>Figma</span>
+              </div>
+              <div class="project-links">
+                <a href="projects/maybank-redesign.html" class="project-link">View Case Study →</a>
+                <a href="https://your-maybank-redesign-figma-url.com" target="_blank" rel="noopener" class="project-link-live">View Prototype <span class="ext-icon">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-tilt>
+            <div class="project-thumb thumb-placeholder grad-6">MediCare — Design Concept</div>
+            <div class="project-body">
+              <span class="project-tag">Design Concept</span>
+              <h3>MediCare — Hospital App Design Concept</h3>
+              <p>A UI/UX concept for a hospital and medical care app, designed to make booking appointments and accessing medical information simpler for patients.</p>
+              <div class="project-stack">
+                <span>Figma</span>
+              </div>
+              <div class="project-links">
+                <a href="projects/medical-care.html" class="project-link">View Case Study →</a>
+                <a href="https://your-medicare-figma-url.com" target="_blank" rel="noopener" class="project-link-live">View Prototype <span class="ext-icon">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        </div>
+        <button class="carousel-arrow carousel-next" aria-label="Next project">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div class="carousel-footer">
+        <span class="carousel-counter"><span data-counter-current>1</span> / <span data-counter-total>3</span></span>
+        <div class="carousel-dots" data-dots></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS / LANGUAGES / SOFT SKILLS -->
+<section class="credentials" id="credentials">
+  <div class="container">
+    <p class="section-tag reveal">Credentials</p>
+    <h2 class="section-title reveal">Certifications, Languages & Soft Skills</h2>
+    <div class="credentials-grid">
+      <div class="credential-card reveal">
+        <h3>Certifications</h3>
+        <ul>
+          <li>Google Project Management Professional Certificate — Coursera</li>
+        </ul>
+      </div>
+      <div class="credential-card reveal">
+        <h3>Languages</h3>
+        <ul>
+          <li>English (Fluent)</li>
+          <li>Bahasa Malaysia (Native)</li>
+        </ul>
+      </div>
+      <div class="credential-card reveal">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Teamwork</li>
+          <li>Time Management</li>
+          <li>Problem-Solving</li>
+          <li>Communication</li>
+          <li>Attention to Detail</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME / CV -->
+<section class="resume" id="resume">
+  <div class="container resume-inner">
+    <div class="resume-text reveal">
+      <p class="section-tag">Resume</p>
+      <h2 class="section-title">Want the full story?</h2>
+      <p class="section-sub">View my resume for a complete look at my experience, education, and tools.</p>
+      <a href="assets/Umairah_Syarafana_Resume.pdf" target="_blank" rel="noopener" class="btn btn-primary">View Resume</a>
+      <a href="assets/Umairah_Syarafana_Resume.pdf" download class="btn btn-outline">Download PDF</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <p class="section-tag reveal">Get In Touch</p>
+    <h2 class="section-title reveal">Let's create something great</h2>
+    <p class="section-sub reveal">Have a project in mind or just want to say hi? My inbox is open.</p>
+
+    <div class="contact-grid">
+      <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/mvzeqzqe" method="POST">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-success" id="formSuccess">Thanks for reaching out! I'll get back to you soon.</p>
+        <p class="form-error" id="formError">Something went wrong — please try again or email me directly.</p>
+      </form>
+
+      <div class="contact-info reveal">
+        <a href="mailto:umairahzaini1602@gmail.com" class="info-card">
+          <span class="info-icon">✉️</span>
+          <span>umairahzaini1602@gmail.com</span>
+        </a>
+        <a href="#" class="info-card">
+          <span class="info-icon">📍</span>
+          <span>Beranang, Selangor, Malaysia</span>
+        </a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/umairah-syarafana-mohd-zaini-493030316/" target="_blank" rel="noopener" class="social-pill">LinkedIn</a>
+          <a href="https://github.com/umairahsyarafana" target="_blank" rel="noopener" class="social-pill">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Umairah Syarafana binti Mohd Zaini. Crafted with care.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
